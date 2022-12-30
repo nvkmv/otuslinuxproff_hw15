@@ -1,0 +1,8 @@
+---
+
+- name:  playbook HW15
+  hosts: all
+  become: true
+    
+  roles:
+    - nginx 
